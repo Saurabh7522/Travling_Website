@@ -88,6 +88,10 @@ section>* {
     padding: 1.5rem;
     font-size: 2rem;
 }
+.navbar .logo img{
+    width: 160px;
+    margin-top: 15px;
+}
 
 .navbar .logo a {
     transition: color 0.4s ease-in-out;
@@ -183,13 +187,13 @@ section>* {
     display: none;
     width: 300px;
     margin: 0 auto;
-    position: absolute; 
+    position: absolute;
     top: 40%;
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto; 
-    background-color: rgba(0,0,0,0.5);
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 1rem 1rem;
 }
 
@@ -198,20 +202,21 @@ section>* {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
     display: none;
 }
 
 
-  .login-input {
+.login-input {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-  }
-  .login-button {
+}
+
+.login-button {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -219,8 +224,9 @@ section>* {
     background-color: #4CAF50;
     color: white;
     cursor: pointer;
-  } 
-  .login-form i {
+}
+
+.login-form i {
     position: absolute;
     right: 0;
     top: 0;
@@ -228,20 +234,23 @@ section>* {
     cursor: pointer;
     padding: 0.5rem 0.5rem;
     text-align: center;
-  }
-  .login-form i:hover{
+}
+
+.login-form i:hover {
     background-color: red;
-  }
-  .popup {
+}
+
+.popup {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     display: none;
-  }
-  .popup-content {
+}
+
+.popup-content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -249,8 +258,9 @@ section>* {
     padding: 20px;
     background-color: white;
     width: 300px;
-  }
-  .close-button {
+}
+
+.close-button {
     position: absolute;
     top: 0;
     right: 0;
@@ -258,7 +268,7 @@ section>* {
     background-color: #4CAF50;
     color: white;
     cursor: pointer;
-  }
+}
 
 
 
@@ -562,151 +572,73 @@ section #home {
 
 /*---- ➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️ ---SECTION THREE --- ⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️ -------------
 ----------------------------------------------------------------------------------------------------- */
-
-
-
-
-#SectionThree {
-    width: 100vw;
-    height: calc(100% - 80px);
+#sectionThree {
     display: flex;
-    background-color: white;
-    padding: 0 3rem;
-}
-
-#SectionThree .FlightDetails {
-    text-align: start;
-    width: 100%;
-    font-size: 2.7rem;
-    font-weight: 100;
-    letter-spacing: 0.1rem;
-    height: 20%;
-    color: #dd1941;
-    margin-bottom: 1rem;
-    margin-left: 2rem;
-}
-
-.SectionThreeAll {
-    width: 100%;
-    height: 80%;
-    display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
-}
-
-.SectionThree_1 {
-    width: 30%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border: 1px solid lightgray;
-    overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-}
-
-.SectionThreeImg {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    text-align: left;
-
-}
-
-
-.SectionThreeImg img {
-    width: 100%;
-    height: 100%;
-}
-
-.SectionThreeImg h1 {
-    padding: 1rem 3rem;
-    color: #61126b;
-    font-weight: 400;
-    margin-bottom: 0rem;
-    font-size: 1.7rem;
-    width: 100vw;
-}
-
-.SectionThreeImg p {
-    font-size: 1.1rem;
-    color: #302222;
     padding: 0 3rem;
-    width: 100%;
 }
 
-.SectionThree_1 button {
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
-    color: white;
-    background-color: #da0530;
-    border: none;
-    cursor: pointer;
-    margin: 1.5rem 3rem;
-    display: flex;
-    align-items: flex-start;
+.card {
+    color: #22225b;
+    width: 350px;
+    margin: 10px;
+    padding: 10px;
+    /* border: 1px solid black; */
     border-radius: 10px;
-}
-
-.SectionThree_2 button {
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
-    color: white;
-    background-color: #da0530;
-    border: none;
-    cursor: pointer;
-    margin: 1.5rem 3rem;
-    display: flex;
-    align-items: flex-start;
-    border-radius: 10px;
-}
-
-.SectionThree_3 button {
-    padding: 1rem 3rem;
-    font-size: 1.2rem;
-    color: white;
-    background-color: #da0530;
-    border: none;
-    cursor: pointer;
-    margin: 1.5rem 3rem;
-    display: flex;
-    align-items: flex-start;
-    border-radius: 10px;
-}
-
-
-
-.SectionThree_2 {
-    width: 30%;
-    height: 100%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid lightgray;
-    overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.SectionThree_3 {
-    width: 30%;
+.card h2 {
+    font-weight: 500;
+    color: #61126b;
+}
+
+.card-image {
+    width: 100%;
+    height: 225px;
+    object-fit: inherit;
+}
+
+.card-image img {
+    width: 100%;
     height: 100%;
+}
+
+.card-content {
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid lightgray;
-    overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-
-
-.HandleSectioThree {
-    display: flex;
-    flex-direction: column;
+.card-button {
     width: 100%;
-    height: 100vh;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #da0530;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
 }
+
+.card-button:hover {
+    background-color: red;
+    transition: 1ms;
+}
+
+
+
+
+
+
 
 
 
@@ -717,84 +649,98 @@ section #home {
 
 
 
-#friendGroup {
+#sectionFour {
     width: 100%;
     height: calc(100vh - 80px);
-    margin: 1rem 0;
-    padding: 0 3rem;
-
-
-}
-
-.allFriendGroup {
-    width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    flex-direction: column;
+    background-image: url(img/goa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    margin: auto;
+   
 }
 
-.aboutFlight {
-    margin: auto;
+.topSectionFour {
+    width: 100%;
+    height: 55%;
+}
+
+.downSectionFour {
+    width: 100%;
+    height: 45%;
+    background-color: white;
+    color: black;
+    max-width: 100%;
+}
+
+.SectionFourAbout {
     width: 100%;
     height: 100%;
+    color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    text-align: start;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    align-items: flex-start;
-    /* margin-top: 4rem; */
-}
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+    font-weight: 500;
+  }
+  
+  .SectionFourAbout p {
+    font-size: 1.1rem;
+    padding: 0;
+  }
 
-.aboutFlight p {
-    margin-left: 3rem;
-    color: #222262;
-    font-size: 1.2rem;
-}
-
-.aboutFlight h1 {
-    margin-top: 1rem;
-    margin-left: 3rem;
-    font-weight: 400;
-    color: #61126b;
-    /* font-size: 2rem; */
-    font-size: 2rem;
-    line-height: 1.6875rem;
-}
-
-.aboutFlight button {
-    padding: 1rem 3rem;
-    font-size: 1.2rem;
+  .whyTravel_content{
+    display: flex;
+  }
+  
+  .SectionFourAbout a {
     color: white;
-    background-color: #da0530;
-    border: none;
-    cursor: pointer;
-    margin: 1.5rem 3rem;
+    text-decoration: none;
+    background: black;
+    padding: 0.8rem 1rem;
     border-radius: 10px;
-    /* display: flex; */
-    /* align-items: flex-start; */
-}
+  }
+  
+  .left_Side_Travling_Content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .travling_content{
+     text-align: center;
+  }
+  
+  .travling_content h2{
+    margin:0;
+    font-weight: 500;
+    color: #555555;
+  }
+  .right_Side_Travling_Content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+  
+  }
+  
+  .whyTravel_heading h1{
+    color: red;
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  
 
-.aboutFlight img {
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 50%;
-}
+  
 
-
-.friends {
-    width: 100%;
-    height: 100%;
-}
-
-.flight {
-    width: 100%;
-    height: 100%;
-}
-
-/*---- ➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️ ---SECTION FOUR --- ⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️ -------------
+/*---- ➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️ ---SECTION FIVE --- ⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️ -------------
 ----------------------------------------------------------------------------------------------------- */
 
 #services {
@@ -889,7 +835,7 @@ section #home {
 }
 
 
-/*---- ➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️ ---SECTION FIVE --- ⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️ -------------
+/*---- ➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️ ---SECTION SIX --- ⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️⬅️ -------------
 ----------------------------------------------------------------------------------------------------- */
 
 
@@ -1045,16 +991,6 @@ section #home {
     height: 100%;
 }
 
-/* .serviceIcon i {
-    background-color: red;
-    border-radius: 50%;
-    width: 4rem;
-    height: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem 0;
-} */
 
 .serviceIcon img {
     font-size: 5rem;
@@ -1153,66 +1089,12 @@ section #home {
     /*--------------------------- ➡️➡️➡️➡️➡️➡️➡️ ---SECTION THREE MDEIA QUERY --- ⬅️⬅️⬅️⬅️⬅️⬅️--------------------------*/
 
 
-
-
-    #SectionThree {
-        /* background-color: yellow; */
+    #sectionThree {
         display: flex;
-        justify-content: space-around;
+        flex-direction: row;
+        justify-content: space-between;
         align-items: center;
-        height: fit-content;
-        padding: 0;
-    }
-
-    .SectionThreeAll {
-        width: 100vw;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        overflow: hidden;
-    }
-
-    .SectionThree_1 button {
-        margin: 1rem 1rem;
-        padding: 1rem 1rem;
-    }
-
-    .SectionThree_2 button {
-        margin: 1rem 1rem;
-        padding: 1rem 1rem;
-    }
-
-    .SectionThree_3 button {
-        margin: 1rem 1rem;
-        padding: 1rem 1rem;
-    }
-
-    .SectionThreeImg h1 {
-        padding: 1rem 0;
-        margin: 0rem;
-        font-size: 1.4rem;
-        padding-left: 0.8rem;
-    }
-
-    .SectionThreeImg p {
-        padding: 0 1rem;
-        margin: 0rem;
-    }
-
-    .SectionThree_1 {
-        justify-content: center;
-        height: fit-content;
-    }
-
-    .SectionThree_2 {
-        justify-content: center;
-        height: fit-content;
-    }
-
-    .SectionThree_3 {
-        justify-content: center;
-        height: fit-content;
+        padding: 0 3rem;
     }
 
 
@@ -1220,24 +1102,25 @@ section #home {
 
     /*--------------------------- ➡️➡️➡️➡️➡️➡️➡️ ---SECTION FOUR MDEIA QUERY--- ⬅️⬅️⬅️⬅️⬅️⬅️---------------------*/
 
-    #friendGroup {
-        width: 97vw;
-        margin: 1rem auto;
-        height: 100vh;
+    #sectionFour{
+        width: 100%;
+    height: 100%;
     }
+    .topSectionfOUR {
+        width: 100%;
+        height: auto;
+      }
+    
+      .SectionFourAbout {
+        padding: 1rem 2rem;
+    
+      }
+      .whyTravel_content{
+      width:100%;
+      }
 
-    .aboutFlight {
-        overflow: hidden;
-        height: 100vh;
-    }
 
-    .aboutFlight h1 {
-        font-size: 1.7rem;
-    }
 
-    .aboutFlight p {
-        font-size: 1rem;
-    }
 
 
 
@@ -1483,79 +1366,56 @@ section #home {
     /*--------------------------- ➡️➡️➡️➡️➡️➡️➡️ ---SECTION THREE MDEIA QUERY--- ⬅️⬅️⬅️⬅️⬅️⬅️---------------------*/
 
 
-
-    .SectionThree_1,
-    .SectionThree_2,
-    .SectionThree_3 {
-        width: 100%;
-    }
-
-    .SectionThreeImg {
-        justify-content: center;
-        align-items: self-start;
-        width: 100%;
-    }
-
-    .SectionThreeImg p {
-        margin-left: 0;
-        margin-top: 0;
-        width: 70%;
-    }
-
-    .SectionThreeImg h1 {
-        margin: 0p;
-        margin-bottom: 0;
-    }
-
-    .SectionThree_1 button,
-    .SectionThree_2 button,
-    .SectionThree_3 button {
-        margin: 1rem 1rem;
-    }
-
-
-    #SectionThree .FlightDetails {
-        font-size: 2rem;
-    }
-
-    .SectionThreeAll {
-        flex-direction: column;
-        width: 100%;
+    #sectionThree {
         height: 100%;
-        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
         align-items: center;
-        gap: 1rem;
-        padding: 0 2rem;
+    }
+
+    .card {
+        width: 87vw;
+        justify-content: space-between;
+    }
+
+    .card-image {
+        height: 270px;
     }
 
     /*--------------------------- ➡️➡️➡️➡️➡️➡️➡️ ---SECTION FOUR MDEIA QUERY--- ⬅️⬅️⬅️⬅️⬅️⬅️---------------------*/
 
 
-    #friendGroup {
-        width: 100%;
-        margin: 1rem auto;
-        height: 100%;
-    }
 
-    .aboutFlight {
-        justify-content: center;
-        gap: 1rem;
-    }
-
-    .aboutFlight button {
-        margin-top: 0rem;
-    }
-
-    .allFriendGroup {
-        width: 100%;
-        height: 100%;
+    .SectionFourAbout {
+        padding: 1rem 1rem;
+  
+      }
+      .whyTravel_content {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
         flex-direction: column;
-        margin: auto;
-    }
+      }
+      .left_Side_Travling_Content {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+      }
+      .right_Side_Travling_Content{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+      }
+
+
+
+
+
+
+
+
+
 
 
 

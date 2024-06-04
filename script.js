@@ -20,6 +20,7 @@ function closeMenu() {
 
 // https://www.virginatlantic.com/in/en?cm_mmc=10.10.00.17.12.00.205&gad_source=1&gclid=Cj0KCQjw8J6wBhDXARIsAPo7QA8rlavsC_iddP6qabKfN0qtLeHoqJmogJVDqwm9D6nhhYJHO-nmxuMaAlBEEALw_wcB&gclsrc=aw.ds
 // https://www.virginatlantic.com/in/en
+// https://www.traveltoindia.org/
 
 
 const loginForm = document.querySelector('.login-form');
